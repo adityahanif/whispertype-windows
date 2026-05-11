@@ -1,0 +1,17 @@
+# WhisperType - Requirements
+# Install dengan: pip install -r requirements.txt
+
+# Model Whisper (pilih salah satu)
+faster-whisper       # REKOMENDASI: lebih cepat, support GPU & CPU
+# openai-whisper     # alternatif resmi dari OpenAI
+
+# Audio capture
+sounddevice
+numpy
+
+# Output ke aplikasi lain
+pyperclip
+pyautogui
+
+# Sudah built-in di Python (tidak perlu install):
+# tkinter, threading, queue, time
